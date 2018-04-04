@@ -2,7 +2,6 @@
 	concurrenttransfers = 8
 	standalonetransferagent = rsync
 	locksverify = false
-	fetchexclude = *
 [lfs "customtransfer.rsync"]
 	path = ~/bin/git-lfs-rsync-agent
 	concurrent = true
