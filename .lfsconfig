@@ -1,0 +1,8 @@
+[lfs]
+	concurrenttransfers = 8
+	standalonetransferagent = rsync
+	locksverify = false
+[lfs "customtransfer.rsync"]
+	path = git-lfs-rsync-agent
+	concurrent = true
+	args = malay@192.168.0.4:/home/malay/Downloads/git-lfs-store
